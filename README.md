@@ -18,6 +18,10 @@ Run Node server (nodemon reload when changes are applied).
 
     nodemon server.js
 
+## Deploay
+
+Read the [Node.js on Heroku](https://devcenter.heroku.com/articles/nodejs) article.
+
 ## Resources
 
 * [Lelylan API](http://dev.lelylan.com)
