@@ -1,0 +1,1 @@
+gem 'guard-jasmine-node'
