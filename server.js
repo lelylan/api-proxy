@@ -28,12 +28,12 @@ var httpServer = http.createServer(function (req, res) {
   //res.write('request successfully proxied: ' + req.url +'\n' + JSON.stringify(req.headers, true, 2));
   //res.end();
 
-  location = response.getHeader('Location');
+  location = res.getHeader('Location');
   if (location != null) {
     location.replace('devices.lelylan.com', 'api.lelylan.com');
-    response.setHeader('Location', location);
+    res.setHeader('Location', location);
   }
-  response.end();
+  res.end();
 });
 
 httpServer.listen(9000);
