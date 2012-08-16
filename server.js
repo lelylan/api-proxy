@@ -1,22 +1,19 @@
 // ----------------
 // Initialization
 // ----------------
-
-http = require('http');
-httpProxy = require('http-proxy');
+var nock = require('nock');
+var http = require('http');
+var httpProxy = require('http-proxy');
 
 // --------------
 // Proxy server
 // --------------
 
-var options = { router: { 'api.lelylan.com/devices': 'devices.lelylan.com' } }
+var options = { router: { 'http://localhost:9000/devices': 'devices.lelylan.com' } }
 
 var proxyServer = httpProxy.createServer(function(req, res, proxy) {
   proxy.proxyRequest(req, res, options);
-  console.log(reuqe)
-})
-
-proxyServer.listen(8000);
+}).listen(8000);
 
 
 // -------------
@@ -30,19 +27,20 @@ var httpServer = http.createServer(function (req, res) {
 
   parseLocationHeader(res);
   res.end();
-});
-
-httpServer.listen(9000);
+}).listen(9000);
 
 
 // ----------------
 // Helper Methods
 // ----------------
 
-function parseLocationHeader(response) {
+function parseLocationHeader(res) {
+  console.log(res.statusCode)
   location = res.getHeader('Location');
+  console.log(location);
   if (location != null) {
     location.replace('devices.lelylan.com', 'api.lelylan.com');
     res.setHeader('Location', location);
+    console.log(res.getHeader('Location'))
   }
 }
