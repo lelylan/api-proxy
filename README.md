@@ -14,13 +14,13 @@ Clone the repository.
 
     git clone git@github.com:lelylan/api.git
 
-Run Node server (nodemon reload when changes are applied).
+Run Node server
 
     nodemon server.js
 
 ## Deploay
 
-Read the [Node.js on Heroku](https://devcenter.heroku.com/articles/nodejs) article.
+Follow [Node.js on Heroku](https://devcenter.heroku.com/articles/nodejs).
 
 ## Resources
 
