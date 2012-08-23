@@ -11,6 +11,8 @@ settings = {
 
 var options = { router: { } }
 
+console.log(settings);
+
 options.router[settings.localhost + '/devices']      = settings.devices   + '/devices';
 options.router[settings.localhost + '/consumptions'] = settings.devices   + '/consumptions';
 options.router[settings.localhost + '/histories']    = settings.devices   + '/histories';
