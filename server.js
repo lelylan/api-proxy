@@ -17,4 +17,5 @@ var options = {
   }
 }
 
-var server = httpProxy.createServer(options).listen(8000);
+var port   = process.env.PORT || 8000
+var server = httpProxy.createServer(options).listen(port);
