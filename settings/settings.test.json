@@ -1,5 +1,0 @@
-{
-  "devices":   "localhost:3001/devices",
-  "types":     "localhost:3002/types",
-  "locations": "localhost:3003/locations"
-}

@@ -1,5 +1,0 @@
-{
-  "devices":   process.env.DEVICES_URI,
-  "types":     process.env.TYPES_URI,
-  "locations": process.env.LOCATIONS_URI
-}
