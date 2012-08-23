@@ -5,7 +5,7 @@ Lelylan API proxy for [Lelylan](http://dev.lelylan.com)
 
 ## Requirements
 
-People API proxy is tested against Node 0.6.11.
+People API proxy is tested against Node 0.8.8.
 
 
 ## Installation
@@ -16,7 +16,7 @@ Clone the repository.
 
 Run Node server
 
-    nodemon server.js
+    foreman start
 
 ## Deploay
 
@@ -35,12 +35,16 @@ provide specs to your contribution.
 
 ### Automatically run specs
 
+**Work in progress**
+
 * Fork and clone the repository.
 * Run `gem install bundler` to get the latest for the gemset.
 * Run `bundle install` for dependencies.
 * Run `bundle exec guard` and press enter to execute all specs.
 
 ### Manually run specs
+
+**Work in progress**
 
 To get direct control on your specs use jasmine-node.
   
