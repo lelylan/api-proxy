@@ -17,4 +17,4 @@
 
 # Procfile env
 .env
-.env.production
+.production.env
