@@ -1,5 +1,3 @@
-var nock = require('nock');
-var http = require('http');
 var httpProxy = require('http-proxy');
 
 settings = {
