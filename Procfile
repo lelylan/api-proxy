@@ -1,1 +1,1 @@
-web: node web.js
+web: $NODE_COMMAND web.js
