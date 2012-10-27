@@ -12,7 +12,7 @@ var routing = {
   '/statuses':      { port: process.env.TYPES_PORT || 80,        host: process.env.TYPES_URI },
   '/categories':    { port: process.env.TYPES_PORT || 80,        host: process.env.TYPES_URI },
   '/locations':     { port: process.env.LOCATIONS_PORT || 80,    host: process.env.LOCATIONS_URI },
-  '/subscriptions': { port: process.env.SUBSCRIPTION_PORT || 80, host: process.env.SUBSCRIPTIONS_URI }
+  '/subscriptions': { port: process.env.SUBSCRIPTIONS_PORT || 80, host: process.env.SUBSCRIPTIONS_URI }
 }
 
 var server = httpProxy.createServer(
