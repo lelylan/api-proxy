@@ -16,7 +16,7 @@ Run Node server
 
     foreman start
 
-## Deploay
+## Deploy
 
 Follow [Node.js on Heroku](https://devcenter.heroku.com/articles/nodejs).
 
@@ -37,7 +37,7 @@ Follow [github](https://github.com/styleguide/) guidelines.
 Use the [issue tracker](http://github.com/lelylan/api/issues) for bugs.
 [Mail](mailto:touch@lelylan.com) or [Tweet](http://twitter.com/lelylan) us for any idea that can improve the project.
 
-## Links 
+## Links
 
 * [GIT Repository](http://github.com/lelylan/api)
 * [Lelylan Dev Center](http://dev.lelylan.com)

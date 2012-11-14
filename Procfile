@@ -1,1 +1,1 @@
-web: $NODE_COMMAND web.js
+web: $NODE_COMMAND app.js
