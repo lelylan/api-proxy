@@ -49,7 +49,7 @@ Use the [issue tracker](http://github.com/lelylan/api/issues) for bugs.
 
 ## Contributors
 
-Special thanks to the following people for submitting patches.
+Special thanks to all people submitting patches.
 
 ## Changelog
 
