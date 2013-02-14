@@ -4,7 +4,7 @@
   "author": "Lelylan Dev Team <touch@lelylan.com>",
   "version": "0.1.0",
   "dependencies": {
-    "http-proxy": "~0.8.2",
+    "http-proxy": "git://github.com/andreareginato/node-http-proxy.git",
     "coffee-script": "~1.3.3",
     "zombie": "~1.3.1",
     "jasmine-node": "~1.0.26",
