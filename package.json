@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "lelylan-api",
   "description": "Lelylan API",
-  "author": "Lelylan Dev Team <touch@lelylan.com>",
+  "author": "Lelylan Dev Team <dev@lelylan.com>",
   "version": "0.1.0",
   "dependencies": {
     "http-proxy": "git://github.com/andreareginato/node-http-proxy.git",

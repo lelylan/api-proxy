@@ -1,6 +1,6 @@
 var httpProxy = require('http-proxy');
 
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 8200;
 
 // all not found routes are forwarded to the devices service
 var routing = {
