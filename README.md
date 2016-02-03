@@ -1,6 +1,6 @@
 # Lelylan API Proxy
 
-Lelylan API proxy for Lelylan API
+Lelylan API proxy.
 
 
 ## Requirements
@@ -10,27 +10,26 @@ Lelylan Nodes is tested against Node 0.8.8.
 
 ## Installation
 
-    $ git clone git@github.com:lelylan/mqtt.git
+    $ git clone git@github.com:lelylan/api-proxy.git && cd api-proxy
     $ npm install && npm install -g foreman
     $ nf start
 
 
 ## Resources
 
-* [Lelylan API](http://dev.lelylan.com)
+* [Lelylan API](http://dev.lelylan.com/api)
 
 
 ## Contributing
 
 Fork the repo on github and send a pull requests with topic branches.
-Do not forget to provide specs to your contribution.
+This repo does not contain any test. If you wish to provide specs to your contribution let us know to say thanks.
 
 
 ### Running specs
 
-* Fork and clone the repository
-* Run `npm install`
-* Run `npm test`
+        $ npm install
+        $ npm test
 
 
 ## Coding guidelines
