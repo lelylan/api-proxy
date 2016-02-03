@@ -5,7 +5,7 @@ Lelylan API proxy.
 
 ## Requirements
 
-Lelylan Nodes is tested against Node 0.8.8.
+API Proxy is tested against Node v0.10.36
 
 
 ## Installation
@@ -23,13 +23,7 @@ Lelylan Nodes is tested against Node 0.8.8.
 ## Contributing
 
 Fork the repo on github and send a pull requests with topic branches.
-This repo does not contain any test. If you wish to provide specs to your contribution let us know to say thanks.
-
-
-### Running specs
-
-        $ npm install
-        $ npm test
+This repo does not contain any test. If you wish to provide specs to your contribution let us know to say thank you.
 
 
 ## Coding guidelines
