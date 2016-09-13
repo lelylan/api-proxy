@@ -14,6 +14,10 @@ API Proxy is tested against Node v0.10.36
     $ npm install && npm install -g foreman
     $ nf start
 
+## Install with docker
+
+    $ docker build --tag=api-proxy .
+    $ docker run -d -it --name api-proxy api-proxy
 
 ## Resources
 
