@@ -10,14 +10,21 @@ API Proxy is tested against Node v0.10.36
 
 ## Installation
 
-    $ git clone git@github.com:lelylan/api-proxy.git && cd api-proxy
-    $ npm install && npm install -g foreman
-    $ nf start
+```bash
+$ git clone git@github.com:lelylan/api-proxy.git && cd api-proxy
+$ npm install && npm install -g foreman
+$ nf start
+```
 
 ## Install with docker
 
-    $ docker build --tag=api-proxy .
-    $ docker run -d -it --name api-proxy api-proxy
+#### Badges
+[![](https://images.microbadger.com/badges/version/lelylanlab/api-proxy:latest.svg)](http://microbadger.com/images/lelylanlab/api-proxy:latest "Get your own version badge on microbadger.com")  [![](https://images.microbadger.com/badges/image/lelylanlab/api-proxy:latest.svg)](http://microbadger.com/images/lelylanlab/api-proxy:latest "Get your own image badge on microbadger.com")
+
+```bash
+$ docker build --tag=api-proxy .
+$ docker run -d -it --name api-proxy api-proxy
+```
 
 ## Resources
 
