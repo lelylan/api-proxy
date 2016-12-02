@@ -21,6 +21,12 @@ $ nf start
 #### Badges
 [![](https://images.microbadger.com/badges/version/lelylanlab/api-proxy:latest.svg)](http://microbadger.com/images/lelylanlab/api-proxy:latest "Get your own version badge on microbadger.com")  [![](https://images.microbadger.com/badges/image/lelylanlab/api-proxy:latest.svg)](http://microbadger.com/images/lelylanlab/api-proxy:latest "Get your own image badge on microbadger.com")
 
+### Use docker hub image
+```bash
+$ docker run -d -it --name api-proxy lelylanlab/api-proxy
+```
+
+### Generate lcoal image
 ```bash
 $ docker build --tag=api-proxy .
 $ docker run -d -it --name api-proxy api-proxy
