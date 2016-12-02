@@ -28,7 +28,7 @@ Docker image: [lelylanlab/api-proxy](https://hub.docker.com/r/lelylanlab/api-pro
 $ docker run -d -it --name api-proxy lelylanlab/api-proxy
 ```
 
-### Generate lcoal image
+### Generate local image
 ```bash
 $ docker build --tag=api-proxy .
 $ docker run -d -it --name api-proxy api-proxy
